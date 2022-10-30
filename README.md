@@ -6,22 +6,31 @@ A mineflayer bot that requires little to no coding to run
 To install the bot, Firstly download VS Code [here](https://code.visualstudio.com)
 
 Then run the following commands by clicking **Terminal > New Terminal**
+
 Then Click where it says ">JevMC>"
+
 Then type the following:
 ```npm install mineflayer```
+
 ```npm install mineflayer-pathfinder``` (I didn't complete the code for the pathfinding part of the bot, but install it anyway)
+
 ```npm install vec3```
 
 ## Part 2
 Replace HOSTNAME with the server address you want the bot to connect to
 
+
 Replace USERNAME with the username of the bot, by leaving it blank it will default to Player
+
 
 Replace PASSWORD with the password of the account you want the bot to login to
 
+
 Replace PORT with the numbers after the colon of the server address you want the bot to connect to
 
+
 Replace AUTH with either microsoft or mojang
+
 
 most options are case senitive
 
