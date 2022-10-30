@@ -4,21 +4,27 @@ const { Vec3 } = require('vec3')
 
 //CHANGE THIS BEFORE RUNNING THE PROGRAM!!!!
 
-var hostname = "localhost" // the hostname of the server you want to connect to
+var hostname = "JevalentSMP.aternos.me" // the hostname of the server you want to connect to
 var displayname = 'JevMC' // The display name or email you wish to connect to
-var password1 = '' // The password of the account you want to connect to
-var portid = 25565 // The port of the server you want to connect to, by default it's 25565
+var portid = 49949 // The port of the server you want to connect to, by default it's 25565
 var authtype = '' // The type of account you want to login to (can be 'microsoft' or 'mojang')
 
   const bot = mineflayer.createBot({
     host: hostname,
     username: displayname,
-    password: password1,
     port: portid,
-    auth: authtype
   })
+// current timestamp in milliseconds
+let ts = Date.now();
 
-  var reporting = true;
+let date_ob = new Date(ts);
+let date = date_ob.getDate();
+let month = date_ob.getMonth() + 1;
+let year = date_ob.getFullYear();
+let hour = date_ob.getHours()
+let minutes = date_ob.getMinutes();
+let fullDate = year + "-" + month + '-' + date
+let fullTime = hour + ':' + minutes
 
 async function goToSleep () {
   const bed = bot.findBlock({
@@ -100,10 +106,18 @@ bot.on('chat', (username, message) => {
                   bot.chat('The time is ' + bot.time.timeOfDay)
                 }
               break
+              case (message == 'what is the actual date?'):
+                bot.chat('The date is ' + fullDate)
+                break
               case (message == 'sleep'):
                 goToSleep()
                 break
-
+                case (message == 'what is the actual time?'):
+                  bot.chat('The time is ' + fullTime)
+                  break
+                case (message == 'sleep'):
+                  goToSleep()
+                  break
                 case (message == 'tell me a fun fact'):
                   var fact = Math.floor(Math.random() * 3 + 1);
                   var factresult = 0;
@@ -166,7 +180,7 @@ bot.on('death', () => {
     return
   }
   if (bot.username) {
-    bot.chat('I died :(')
+    bot.chat('I died')
   }
 })
 
