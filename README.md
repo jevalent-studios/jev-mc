@@ -7,7 +7,7 @@ To install the bot, Firstly download VS Code [here](https://code.visualstudio.co
 
 Then run the following commands by clicking **Terminal > New Terminal**
 
-Then Click where it says ">JevMC>"
+Then Click where it says ">"
 
 Then type the following:
 ```npm install mineflayer```
