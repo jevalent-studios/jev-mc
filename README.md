@@ -1,4 +1,4 @@
-# jev-mc
+# JevMC
 A mineflayer bot that requires little to no coding to run
 
 # Installation
