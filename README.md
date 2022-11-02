@@ -1,6 +1,10 @@
 # JevMC
 A mineflayer bot that requires little to no coding to run
 
+Please consider the following before installing:
+
+```This is a WORK IN PROGRESS!!!! Most things will be buggy and/or will not work!!```
+
 # Installation
 ## Part 1
 To install the bot, Firstly download VS Code [here](https://code.visualstudio.com)
