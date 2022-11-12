@@ -6,7 +6,18 @@ Please consider the following before installing:
 ```This is a WORK IN PROGRESS!!!! Most things will be buggy and/or will not work!!```
 
 # Installation
-## Part 1
+## Short-ish way
+To install the bot, Firstly download VS Code [here](https://code.visualstudio.com)
+
+Download the source code, then unzip the file.
+
+Open the unzipped folder in Visual Code Studio
+
+When Visual Code Studio is open, click "Run" then from the drop down menu, click "start debugging"
+
+## Longer way
+
+### Part 1
 To install the bot, Firstly download VS Code [here](https://code.visualstudio.com)
 
 Then run the following commands by clicking **Terminal > New Terminal**
@@ -20,7 +31,7 @@ Then type the following:
 
 ```npm install vec3```
 
-## Part 2
+### Part 2
 Replace HOSTNAME with the server address you want the bot to connect to
 
 
@@ -37,7 +48,6 @@ Replace AUTH with either microsoft or mojang
 
 
 most options are case senitive
-
 ```var hostname = '[HOSTNAME]' // the hostname of the server you want to connect to
 var displayname = '[USERNAME]' // The display name or email you wish to connect to
 var password1 = '[PASSWORD]' // The password of the account you want to connect to
