@@ -15,7 +15,7 @@ Open the unzipped folder in Visual Code Studio
 
 When Visual Code Studio is open, click "Run" then from the drop down menu, click "start debugging"
 
-## Longer way
+## Longer way (NOT RECCOMENDED FOR NORMAL USERS)
 
 ### Part 1
 To install the bot, Firstly download VS Code [here](https://code.visualstudio.com)
