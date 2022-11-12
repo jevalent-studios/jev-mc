@@ -11,7 +11,7 @@ To install the bot, Firstly download VS Code [here](https://code.visualstudio.co
 
 Download the source code, then unzip the file.
 
-Open the unzipped folder in Visual Code Studio
+Open the unzipped folder in Visual Code Studio (it should have the files "README.md" and the folder "Production")
 
 When Visual Code Studio is open, click "Run" then from the drop down menu, click "start debugging"
 
