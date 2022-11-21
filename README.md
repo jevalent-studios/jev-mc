@@ -9,7 +9,7 @@ Please consider the following before installing:
 ## Short-ish way
 To install the bot, Firstly download VS Code [here](https://code.visualstudio.com)
 
-Download the source code, then unzip the file.
+Download the release titled "JevMC Version 1.6", then unzip the compressed folder
 
 Open the unzipped folder in Visual Code Studio (it should have the files "README.md" and the folder "Production")
 
