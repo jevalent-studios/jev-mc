@@ -49,8 +49,10 @@ Replace AUTH with either microsoft or mojang
 
 most options are case senitive
 
-```var hostname = '[HOSTNAME]' // the hostname of the server you want to connect to
+```
+var hostname = '[HOSTNAME]' // the hostname of the server you want to connect to
 var displayname = '[USERNAME]' // The display name or email you wish to connect to
 var password1 = '[PASSWORD]' // The password of the account you want to connect to
 var portid = '[PORT]' // The port of the server you want to connect to, by default it's 25565
-var authtype = '[AUTH]' // The type of account you want to login to (can be microsoft or mojang)```
+var authtype = '[AUTH]' // The type of account you want to login to (can be microsoft or mojang)
+```
