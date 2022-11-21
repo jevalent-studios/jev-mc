@@ -31,7 +31,7 @@ Then type the following:
 
 ```npm install vec3```
 
-### Part 2
+## Replacing some stuff
 Replace HOSTNAME with the server address you want the bot to connect to
 
 
