@@ -48,6 +48,7 @@ Replace AUTH with either microsoft or mojang
 
 
 most options are case senitive
+
 ```var hostname = '[HOSTNAME]' // the hostname of the server you want to connect to
 var displayname = '[USERNAME]' // The display name or email you wish to connect to
 var password1 = '[PASSWORD]' // The password of the account you want to connect to
