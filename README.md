@@ -5,6 +5,20 @@ Please consider the following before installing:
 
 ```This is a WORK IN PROGRESS!!!! Most things will be buggy and/or will not work!!```
 
+# Installation (^1.8)
+
+Download NodeJS [here](https://nodejs.org/en/download/)
+
+Edit .env files for hostname (the server you wish for JevMC to connect to)
+
+Edit .env files for username (the username of JevMC)
+
+Edit .env files for port (the port of the server you wish for JevMC to connect to, everything after the colon)
+
+Edit .env files for authentication type (Mojang if your account is a Mojang Account, Microsoft if you've either migrated from or have created a Microsoft aka Xbox account for minecraft)
+
+Done! Just click start.bat and your bot should join your server!
+
 # Installation
 ## Short-ish way
 To install the bot, Firstly download VS Code [here](https://code.visualstudio.com)
