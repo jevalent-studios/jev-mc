@@ -5,7 +5,7 @@ Please consider the following before installing:
 
 ```This is a WORK IN PROGRESS!!!! Most things will be buggy and/or will not work!!```
 
-# Installation (^1.8)
+# Installation (JevMC Release ^1.8, version 1.19)
 
 Download NodeJS [here](https://nodejs.org/en/download/)
 
